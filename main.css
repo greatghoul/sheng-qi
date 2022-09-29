@@ -1,0 +1,22 @@
+.box {
+    height: 500px;
+    position: relative;
+}
+
+#pole {
+    width: 10px;
+    height: 100%;
+    background-color: #ebd223;
+}
+
+#flag {
+    width: 100px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    background-image: url(flag.gif);
+    background-size: contain;
+    opacity: 0;
+}
